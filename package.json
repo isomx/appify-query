@@ -1,0 +1,25 @@
+{
+  "name": "appify-query",
+  "version": "0.0.0",
+  "description": "Appify query provides a generic interface for querying a variety of different data",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Josh Cope",
+  "license": "ISC",
+  "devDependencies": {
+    "@bit/lodash.lodash.clone-deep": "^4.17.11",
+    "@bit/lodash.lodash.merge": "^4.17.11",
+    "@bit/lodash.lodash.is-equal": "^4.17.11"
+  },
+  "peerDependencies": {
+    "@bit/lodash.lodash.clone-deep": "^4.17.11",
+    "@bit/lodash.lodash.merge": "^4.17.11",
+    "@bit/lodash.lodash.is-equal": "^4.17.11"
+  },
+  "dependencies": {
+    "@bit/appify.core.utils.camel-case-fields": "0.0.1",
+    "@bit/appify.core.utils.matching": "0.0.6"
+  }
+}
