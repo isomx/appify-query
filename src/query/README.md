@@ -82,7 +82,7 @@ const query = Query.init(exampleObject)
       // records, but then can also be included in the result(s)
       // based on different parameters
       .select('state')
-      .where('city', 'Montgomery')
+      .whereNot('city', 'Montgomery')
     )
     // to include virtual fields in the result set based on the
     // query arguments provided in the parent query:
